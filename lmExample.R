@@ -6,4 +6,6 @@ fit = lm(y ~ x)
 summary(fit)
 
 plot(x, y)
-abline(fit1, col=2)
+abline(fit, col=2)
+
+
